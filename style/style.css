@@ -1,0 +1,32 @@
+body{
+    background-color: #222831;
+    text-align: center;
+}
+
+.box{
+    background-color: #dddddd;
+    border-radius: 30px;
+    width: 400px;
+    height: 225px;
+    margin: 200px auto;
+    padding: 30px;
+    position: relative;
+}
+
+.box:after {
+	content: '';
+	position: absolute;
+	right: 380px;
+	bottom: 5px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-right-color: #dddddd;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -7.5px;
+	margin-left: -15px;
+}
+.btn-signup{
+    margin-top: 20px;
+}
